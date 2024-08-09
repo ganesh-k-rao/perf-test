@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "perf-test"
+version = "0.1.0"
+description = "Tool for performance testing APIs"
+authors = ["ganesh <ganesh.rao@urbint.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.9.5"
+pydantic = "^2.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
